@@ -1,46 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Media Page</title>
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="index.html">index.html</a></li>
-        <li><a href="resume.html">resume.html</a></li>
-        <li><a href="page3.html">page3.html</a></li>
-      </ul>
-    </nav>
-  </header>
+  <head>
+    <meta charset="UTF-8">
+    <title>Video Profile</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Homepage</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="video.html">Video Profile</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <main>
-    <h1>Intro Video (required “other media”)</h1>
-    <p>This embedded video satisfies the “one other form of media (audio or video)” requirement.</p>
+    <h1>Video / Audio Intro</h1>
 
-    <!-- Use video OR audio; either is fine -->
-    <video controls width="640" height="360">
-      <source src="media/intro.mp4" type="video/mp4">
+    <h2>Short Video</h2>
+    <video src="media/intro.mp4" controls>
       Your browser does not support the video tag.
     </video>
 
-    <!-- Example audio version (optional)
-    <audio controls>
-      <source src="media/intro.mp3" type="audio/mpeg">
+    <h2>Optional Audio</h2>
+    <audio src="media/intro.mp3" controls>
       Your browser does not support the audio element.
     </audio>
-    -->
 
-    <h2>Notes</h2>
+    <h2>About This Project</h2>
     <ul>
-      <li>All links are relative (no absolute URLs to local files).</li>
-      <li>No CSS used anywhere (no <style> tags or .css files).</li>
+      <li>Raw HTML only (no CSS, no frameworks)</li>
+      <li>Same navigation on every page</li>
+      <li>Images stored in the local <code>media/</code> folder</li>
     </ul>
-  </main>
-
-  <footer>
-    <p>Thanks for visiting.</p>
-  </footer>
-</body>
+  </body>
 </html>
